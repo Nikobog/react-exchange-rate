@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.content{
+    display: flex;
+}
+.block{
+    padding: 10px;
+    border: 1px solid #ececec;
+    border-radius: 15px;
+    margin-left: 10px;
+}
+.block input{
+    font-size: 24px;
+    font-weight: 700;
+    padding: 10px 20px;
+    border: 1px solid #cccc;
+    border-radius: 8px;
+    margin-top: 10px;
+}
+.currencies{
+    display: flex;
+    justify-content: space-between;
+}
+.currencies div{
+    padding: 5px 10px;
+    background: greenyellow;
+    border-radius: 8px;
+    border: 1px solid #cccc;
+    min-width: 60px;
+    text-align: center;
+}
+.currencies div:hover,
+.currencies div.active{
+    cursor: pointer;
+    background: blue;
+    color: #fff;
+}
+.currencies div.active{
+    cursor: default;
+}
