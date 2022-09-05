@@ -18,8 +18,8 @@ export function useRates( ) {
                 })
                 setRates(rates)
             }).catch(err => {
-            console.warn(err)
-        })
+                console.warn(err)
+            })
     }, [])
 
     return rates
